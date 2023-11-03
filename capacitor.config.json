@@ -1,0 +1,37 @@
+{
+  "appId": "com.test.app",
+  "appName": "Test App",
+  "webDir": "www",
+  "loggingBehavior": "production",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    },
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "splashImmersive": true,
+      "spinnerColor": "#FFFFFF",
+      "backgroundColor": "#01cfca",
+      "androidSpinnerStyle": "small",
+      "iosSpinnerStyle": "small"
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "android-minSdkVersion": "22",
+      "deployment-target": "10.0",
+      "BackupWebStorage": "none",
+      "DisableDeploy": "true"
+    }
+  },
+  "android": {
+    "overrideUserAgent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36"
+  }
+}
